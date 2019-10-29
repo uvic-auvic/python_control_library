@@ -1,13 +1,8 @@
 import sys
-import re
-import GateDetector
 import serial as s
-import time
 
 class controls: 
     def __init__(self, com_port):
-        self.pressure = 0 
-        self. pressure_diff = 100
         self.ser = s.Serial(com_port, 9600, timeout = 2)
 
     def activate_motor(self, motor_number, power):
