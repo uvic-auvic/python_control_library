@@ -13,7 +13,7 @@ c = controls(1)
 Where 1 is the serial communications port that polaris uses to communicate with the motor controller.
 </br>
 </br>
-Methods can now be called like the following:
+Methods can now be called as follows:
 <pre>
 c.activate_motor(1, 50)
 </pre>
